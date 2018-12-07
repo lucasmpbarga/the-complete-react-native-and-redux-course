@@ -1,0 +1,7 @@
+export ANDROID_HOME=/Users/desktop/Library/Android/sdk/
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+echo $ANDROID_HOME
+
+->in project
+create file "local.properties":
+	->local.properties
